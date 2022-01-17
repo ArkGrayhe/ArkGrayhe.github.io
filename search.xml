@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>《小说机杼》笔记</title>
+    <url>/2022/01/10/%E3%80%8A%E5%B0%8F%E8%AF%B4%E6%9C%BA%E6%9D%BC%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<span id="more"></span>]]></content>
+      <categories>
+        <category>Reading</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《发现社会》笔记</title>
     <url>/2022/01/10/%E3%80%8A%E5%8F%91%E7%8E%B0%E7%A4%BE%E4%BC%9A%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<span id="more"></span>]]></content>
@@ -9,6 +20,19 @@
       </categories>
       <tags>
         <tag>阅读笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>寒冷</title>
+    <url>/2022/01/15/%E5%AF%92%E5%86%B7/</url>
+    <content><![CDATA[<span id="more"></span>
+<p>太冷了，我忍耐着骨头的坚硬和四肢的纤长缩在一起。我想着一人说“我感觉很冷”，另一个人摸摸那人的手，想道：她的手确实很冷，这样的场景。如果我的手脚冰凉，我会无法入睡，这已经在宿舍的狭盒里应证了无数次了。我用身体上别的部位温暖手脚，可是不见效，我的大脚趾都已经麻木了。我起身，前往浴室。坐在马桶盖上等待热水，而用手测温时冷水都比手暖和。花洒紧贴着脚背。右脚发红，左脚却差了一只大脚趾仍然在发麻，况且总是苍白中带有黄色，我回想起第一次用国画颜料调出来肉色——朱砂，藤黄，再加上钛白。现在想来还得加青色，雷诺阿画人皮的阴影处就用的青色。左脚的大脚趾还是不见好，掰开它只有麻木的感觉。<br>太晚了，又冷。我读完了扎加耶夫斯基的《永恒的敌人》，有几句诗句把我从温顺的睡眠中拉入清醒，就像冰水。越读越冷。又读《小说机杼》和《妻妾成群》。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
@@ -124,6 +148,18 @@
       </categories>
       <tags>
         <tag>关于本站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学建模学习笔记</title>
+    <url>/2022/01/15/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>既然报名了，姑且还是好好搞。<br><span id="more"></span><br>一上来就是个乐子：视屏专属播放器与Obisidian无法兼容。姑且先用记事本写了。</p>
+<h1 id="层次分析法"><a href="#层次分析法" class="headerlink" title="层次分析法"></a>层次分析法</h1>]]></content>
+      <categories>
+        <category>Tech</category>
+      </categories>
+      <tags>
+        <tag>专业内容</tag>
       </tags>
   </entry>
   <entry>
@@ -460,41 +496,5 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
       <categories>
         <category>language</category>
       </categories>
-  </entry>
-  <entry>
-    <title>《小说机杼》笔记</title>
-    <url>/2022/01/10/%E3%80%8A%E5%B0%8F%E8%AF%B4%E6%9C%BA%E6%9D%BC%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<span id="more"></span>]]></content>
-      <categories>
-        <category>Reading</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学建模学习笔记</title>
-    <url>/2022/01/15/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>既然报名了，姑且还是好好搞。<br><span id="more"></span><br>一上来就是个乐子：视屏专属播放器与Obisidian无法兼容。姑且先用记事本写了。</p>
-<h1 id="层次分析法"><a href="#层次分析法" class="headerlink" title="层次分析法"></a>层次分析法</h1>]]></content>
-      <categories>
-        <category>Tech</category>
-      </categories>
-      <tags>
-        <tag>专业内容</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>寒冷</title>
-    <url>/2022/01/15/%E5%AF%92%E5%86%B7/</url>
-    <content><![CDATA[<span id="more"></span>
-<p>太冷了，我忍耐着骨头的坚硬和四肢的纤长缩在一起。我想着一人说“我感觉很冷”，另一个人摸摸那人的手，想道：她的手确实很冷，这样的场景。如果我的手脚冰凉，我会无法入睡，这已经在宿舍的狭盒里应证了无数次了。我用身体上别的部位温暖手脚，可是不见效，我的大脚趾都已经麻木了。我起身，前往浴室。坐在马桶盖上等待热水，而用手测温时冷水都比手暖和。花洒紧贴着脚背。右脚发红，左脚却差了一只大脚趾仍然在发麻，况且总是苍白中带有黄色，我回想起第一次用国画颜料调出来肉色——朱砂，藤黄，再加上钛白。现在想来还得加青色，雷诺阿画人皮的阴影处就用的青色。左脚的大脚趾还是不见好，掰开它只有麻木的感觉。<br>太晚了，又冷。我读完了扎加耶夫斯基的《永恒的敌人》，有几句诗句把我从温顺的睡眠中拉入清醒，就像冰水。越读越冷。又读《小说机杼》和《妻妾成群》。</p>
-]]></content>
-      <categories>
-        <category>diary</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
   </entry>
 </search>
