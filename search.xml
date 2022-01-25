@@ -183,7 +183,7 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
     <content><![CDATA[<p>日语学习记录。<br><span id="more"></span></p>
 <h1 id="学习路径"><a href="#学习路径" class="headerlink" title="学习路径"></a>学习路径</h1><ul>
 <li>duolingo:由于不够系统以及不怎么讲语法，现在是辅助背诵的工具。</li>
-<li>新标日：原本计划看みんなの日本語，但由于简中互联网上新标日的学习资源更多，目前在看新标日初级上册，准备过一遍。<br>  2022/1/5：初级上册开始。<br>  2022/1/11：初级上册一半完成。</li>
+<li>新标日：原本计划看みんなの日本語，但由于简中互联网上新标日的学习资源更多，目前在看新标日初级上册，准备过一遍。<br>  2022/1/5：初级上册开始。<br>  2022/1/11：初级上册一半完成。<br>  2022/1/19：初级上册完成。<br>  2022/1/25：初级下册开始。</li>
 </ul>
 <h1 id="初级上"><a href="#初级上" class="headerlink" title="初级上"></a>初级上</h1><h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><h3 id="动词"><a href="#动词" class="headerlink" title="动词"></a>动词</h3><hr>
 <h4 id="动词原形-です型"><a href="#动词原形-です型" class="headerlink" title="动词原形~です型"></a>动词原形~です型</h4><div class="table-container">
@@ -598,6 +598,25 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
 <ul>
 <li>疑问词+か<br>  部屋にだれ<strong>か</strong>いますか。——房间里有人吗？<br>  部屋にだれ<strong>が</strong>いますか。——房间里有谁？</li>
 </ul>
+<h1 id="初级下"><a href="#初级下" class="headerlink" title="初级下"></a>初级下</h1><h2 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h2><ul>
+<li><p>动词简体形/小句（动词简体形）+名词<br>  これは明日会議で使う資料です。<br>  さっき森さんが座った場所。</p>
+</li>
+<li><p>小句（动词简体形）+の+は 形容词 です<br>  自転車に二人で乗るのは危ないです。</p>
+</li>
+<li><p>小句（动词简体形）+の+を 动词<br>  手紙を出すのを忘れました。</p>
+<ul>
+<li>这种名词化形式作宾语时の和こと可以互换。<br>  李さんは部長に報告するの（=こと）を忘れました。<br>  但是表示语言行为的动词（知らせます、伝えます、話します）只能用こと。<pre><code>  李さんは森さんが休むことを伝えました。
+</code></pre>  而句尾的动词是表示感知的动词（見ます、聞きます）或直接作用于对象的动词（手伝います、やめます、防ぎます）时则只能用の。<pre><code>  李さんは森さんが車から降りるのを見ました。
+</code></pre></li>
+</ul>
+</li>
+<li><p>表示推测</p>
+<ol>
+<li>小句（简体形）でしょう　/　だろう</li>
+<li>小句（简体形）かもしれません（比1可能程度低）</li>
+</ol>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>language</category>
@@ -621,5 +640,10 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
         <tag>阅读笔记</tag>
         <tag>随笔</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>《拉康》笔记</title>
+    <url>/2022/01/25/%E3%80%8A%E6%8B%89%E5%BA%B7%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
