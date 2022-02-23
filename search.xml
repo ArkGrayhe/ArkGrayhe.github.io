@@ -1,40 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>《小说机杼》笔记</title>
-    <url>/2022/01/10/%E3%80%8A%E5%B0%8F%E8%AF%B4%E6%9C%BA%E6%9D%BC%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<span id="more"></span>]]></content>
-      <categories>
-        <category>Reading</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《发现社会》笔记</title>
-    <url>/2022/01/10/%E3%80%8A%E5%8F%91%E7%8E%B0%E7%A4%BE%E4%BC%9A%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<span id="more"></span>]]></content>
-      <categories>
-        <category>Reading</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《拉康》笔记</title>
-    <url>/2022/01/25/%E3%80%8A%E6%8B%89%E5%BA%B7%E3%80%8B%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>预定是多周目阅读。<br><span id="more"></span></p>
-]]></content>
-      <categories>
-        <category>Reading</category>
-      </categories>
-      <tags>
-        <tag>阅读笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《论家用电器》以及《梦的宇宙志》的笔记</title>
     <url>/2022/01/08/%E3%80%8A%E8%AE%BA%E5%AE%B6%E7%94%A8%E7%94%B5%E5%99%A8%E3%80%8B%E4%BB%A5%E5%8F%8A%E3%80%8A%E6%A2%A6%E7%9A%84%E5%AE%87%E5%AE%99%E5%BF%97%E3%80%8B%E7%9A%84%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>最近对于遗忘怀有隐隐的恐惧，先前记录在活页本上与书上却觉得不易随时查看，决心建站记录所学所想。<br>首先记录期末考试结束以后首先看完的两本小书。<br><span id="more"></span></p>
@@ -67,7 +33,7 @@
 <li>“电灯是为驱逐黑夜而诞生的”，失去灯光则意味着黑暗。如果黑暗不仅仅意味着睡眠，那就必然有无方向的狂奔的思想。高二阅读《金阁寺》到一半，关灯于黑暗中看微弱的房间。月光过于稀疏，以至于颜色都要流走，《金阁寺》的封面变成了灰黑色的。</li>
 <li><p>灯光本身扭曲了时间意识，一次深夜刷题间隙写下过：在深夜看见正午的光。</p>
 </li>
-<li><p>最后虽然无关，但由于本书中女性视角在一些地方的缺失，联想到女性主义就是试图去填满一些缺失；而在个人情感经验中，对于异性恋中女性的印象也是，女性会去强调“你没有做什么”，虽说私人体验中是可以除去元叙事的。</p>
+<li><p>最后虽然无关，但由于本书中女性视角在一些地方的缺失，联想到女性主义就是试图去填满一些缺失；而在个人情感经验中，对于异性恋中女性的印象也是，女性会去强调“你没有做什么”，虽说私人体验中是可以除去元叙事的。 ^bbbffd</p>
 </li>
 </ul>
 <p>如果尽力与这本书保持一定的距离，“不够学术”，尤其涉及到技术哲学方面陈词滥调绝不算少，甚至难逃平庸，阅读的进程中经常会想到之后所写。但和作者还是有巨大的学识上的鸿沟，毕竟能够说我难以漂亮地说出的话（虽然作者尽力避免一些学术黑话，但依旧能识别出一些思想的影子。但由于我不了解本雅明，一定会漏看很多）。“也不够纯文学”。但我依旧十分喜欢这本书，理由是其中的游戏性和怀旧性足够唤醒我与物的罗曼史，而游戏性和怀旧性将在下一本书中集中记录。</p>
@@ -119,6 +85,15 @@
 <li>Local Search本地搜索；</li>
 <li>设置网站图标；</li>
 </ul>
+<h2 id="2022-2-23"><a href="#2022-2-23" class="headerlink" title="2022/2/23"></a>2022/2/23</h2><ul>
+<li>学习用Obsidian（Obsidian，你好强大！）：<ul>
+<li><a href="https://www.bilibili.com/video/BV1SA411i7BG">Obsidian：目前我们眼中最美最好用的免费笔记/知识管理软件_哔哩哔哩_bilibili</a></li>
+<li><a href="https://www.bilibili.com/video/BV18a411r7mt/?spm_id_from=333.788.recommend_more_video.-1">也许是B站最好的Obsidian新手教程！爆肝30天，一站式入门双向链接笔记软件_哔哩哔哩_bilibili</a></li>
+</ul>
+</li>
+<li><a href="https://www.jianshu.com/p/f91c170e7fa7">Markdown 注释 - 简书 (jianshu.com)</a></li>
+<li>一些hexo插件参考：<a href="https://loafing.cn/posts/hexo-tags.html">「推荐」本站用到的 hexo 插件 | 若风 (loafing.cn)</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Tech</category>
@@ -152,26 +127,13 @@
   <entry>
     <title>寒冷</title>
     <url>/2022/01/15/%E5%AF%92%E5%86%B7/</url>
-    <content><![CDATA[<span id="more"></span>
-<p>太冷了，我忍耐着骨头的坚硬和四肢的纤长缩在一起。我想着一人说“我感觉很冷”，另一个人摸摸那人的手，想道：她的手确实很冷，这样的场景。如果我的手脚冰凉，我会无法入睡，这已经在宿舍的狭盒里应证了无数次了。我用身体上别的部位温暖手脚，可是不见效，我的大脚趾都已经麻木了。我起身，前往浴室。坐在马桶盖上等待热水，而用手测温时冷水都比手暖和。花洒紧贴着脚背。右脚发红，左脚却差了一只大脚趾仍然在发麻，况且总是苍白中带有黄色，我回想起第一次用国画颜料调出来肉色——朱砂，藤黄，再加上钛白。现在想来还得加青色，雷诺阿画人皮的阴影处就用的青色。左脚的大脚趾还是不见好，掰开它只有麻木的感觉。<br>太晚了，又冷。我读完了扎加耶夫斯基的《永恒的敌人》，有几句诗句把我从温顺的睡眠中拉入清醒，就像冰水。越读越冷。又读《小说机杼》和《妻妾成群》。</p>
+    <content><![CDATA[<p>太冷了，我忍耐着骨头的坚硬和四肢的纤长缩在一起。<span id="more"></span>我想着一人说“我感觉很冷”，另一个人摸摸那人的手，想道：她的手确实很冷，这样的场景。如果我的手脚冰凉，我会无法入睡，这已经在宿舍的狭盒里应证了无数次了。我用身体上别的部位温暖手脚，可是不见效，我的大脚趾都已经麻木了。我起身，前往浴室。坐在马桶盖上等待热水，而用手测温时冷水都比手暖和。花洒紧贴着脚背。右脚发红，左脚却差了一只大脚趾仍然在发麻，况且总是苍白中带有黄色，我回想起第一次用国画颜料调出来肉色——朱砂，藤黄，再加上钛白。现在想来还得加青色，雷诺阿画人皮的阴影处就用的青色。左脚的大脚趾还是不见好，掰开它只有麻木的感觉。<br>太晚了，又冷。我读完了扎加耶夫斯基的《永恒的敌人》，有几句诗句把我从温顺的睡眠中拉入清醒，就像冰水。越读越冷。又读《小说机杼》和《妻妾成群》。</p>
 ]]></content>
       <categories>
         <category>diary</category>
       </categories>
       <tags>
         <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学建模学习笔记</title>
-    <url>/2022/01/15/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>既然报名了，姑且还是好好搞。<br><span id="more"></span><br>一上来就是个乐子：视屏专属播放器与Obisidian无法兼容。姑且先用记事本写了。</p>
-<h1 id="层次分析法"><a href="#层次分析法" class="headerlink" title="层次分析法"></a>层次分析法</h1>]]></content>
-      <categories>
-        <category>Tech</category>
-      </categories>
-      <tags>
-        <tag>专业内容</tag>
       </tags>
   </entry>
   <entry>
@@ -827,6 +789,50 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
       </categories>
       <tags>
         <tag>专业内容</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>精神病学/神经科学</title>
+    <url>/2022/02/23/%E7%B2%BE%E7%A5%9E%E7%97%85%E5%AD%A6-%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/</url>
+    <content><![CDATA[<p>这篇博客的滥觞：[[惶惶终日]]<a href="/2022/02/23/%E6%83%B6%E6%83%B6%E7%BB%88%E6%97%A5/" title="惶惶终日">惶惶终日</a><br>过去所写：[[抑郁作为经验]]<a href="/2022/01/12/%E6%8A%91%E9%83%81%E4%BD%9C%E4%B8%BA%E7%BB%8F%E9%AA%8C/" title="抑郁作为经验">抑郁作为经验</a><br><span id="more"></span></p>
+<h1 id="精神分析"><a href="#精神分析" class="headerlink" title="精神分析"></a>精神分析</h1><p>（2022-02-23）</p>
+<blockquote>
+<p>他无时无刻不在经受着一种虐待，一种无人揭示、却无时无刻不在向他施加的，一种极端的冷漠。他者激起了这种冷漠，他感觉到了这一点，他无数次地想要引起对方的思维，索求一点回应，又时刻被无意义性侵袭，时刻抵抗，突然在这个空间的挤压中失去了抗性。精神病，是关于抹除的隐喻。<br><a href="https://www.bilibili.com/video/BV1Ni4y177Cx?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click">于评论区，有所修改：【精神病学访谈】反社会人格_哔哩哔哩_bilibili</a> </p>
+</blockquote>
+<p>精神病的言语：不断重复的“一种”，其中包含着<strong>模糊性</strong>，也表现了语言本身的无力。健全的人，蔑视的人，另一种精神病要问：”哪种？“。在触摸文学之前觉得过于沉重的词语附着在表达里，”虐待“”冷漠“”抵抗“”抹除“，以及必然的”痛苦“和”无意义“。但不要忘记，这些语言本身就承担了自虐的职能。<br>贴出来是因为与形式不同，其内容非常<strong>准确</strong>。非常文学，但非常准确。精神分析的回答是：</p>
+<ul>
+<li><a href="/2022/02/23/%E6%83%B6%E6%83%B6%E7%BB%88%E6%97%A5/" title="惶惶终日">惶惶终日</a>中粗糙的体验：何为“大他者的匮乏”</li>
+<li>来源：<a href="https://www.bilibili.com/video/BV1344y117Zd?from=search&amp;seid=4852804208581468949&amp;spm_id_from=333.337.0.0">齐泽克：为什么精神分析的本质是【诈欺】？（狗子字幕组）_哔哩哔哩_bilibili</a><ul>
+<li>因为被分析者对分析师移情，分析师会变成假定能知的主体，占据了大他者的位置。但其实分析师是无知的，占据大他者的位置却不断沉默。最终被分析者穿越大他者存在的幻想，整个意义系统是不完备的，象征界中心是有洞的，只能停止寻求外部的支撑，自己分析自己。</li>
+<li>原理：被分析者针对分析师会体验一种原初焦虑（齐泽克的Che Vuoi？），被分析者不停地说以填补作为大他者的分析师的欲望，但最终意识到大他者的匮乏。</li>
+<li>从desire到drive，必须直面没有最终的回答的事实。精神分析把意义的世界化约到无意义的点位。</li>
+</ul>
+</li>
+</ul>
+<h1 id="神经科学"><a href="#神经科学" class="headerlink" title="神经科学"></a>神经科学</h1><ul>
+<li>（2022-02-23）来源：<a href="https://www.bilibili.com/video/BV13P4y1w7jh?spm_id_from=333.999.0.0">什么是经前期焦虑症？如何缓解经前焦虑？_哔哩哔哩_bilibili</a><ul>
+<li>PMDD 是指经前期焦虑障碍。PMS经前期综合症是指在月经周期的某些阶段中情绪的变化。我的病症是PMDD。</li>
+<li>卵巢中卵泡（follicle）成长为卵子（egg），卵子被释放后留下一个空卵泡，即黄体（corpus luteum），分泌孕酮的器官。若不被受精，黄体会停止分泌孕酮，并且枯萎（wither away），过后子宫内膜（utering lining）就会脱落，即月经。这个过程发生在月经前一到两个星期。</li>
+<li>孕酮会转化成另一种荷尔蒙，即异孕酮（allopregnanolone），与GABA-A受体结合能，减少抑郁和焦虑。</li>
+<li>PMDD患者对孕酮（progesterone）的变化很敏感。故而在这阶段会有较为严重的精神问题。我会抑郁，哭泣，疲惫无力，易怒，过去生理上也有比较明显的疼痛和酸痛。</li>
+</ul>
+</li>
+</ul>
+<h2 id="药理"><a href="#药理" class="headerlink" title="药理"></a>药理</h2><h3 id="底层原理"><a href="#底层原理" class="headerlink" title="底层原理"></a>底层原理</h3>]]></content>
+      <tags>
+        <tag>阅读笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>惶惶终日</title>
+    <url>/2022/02/23/%E6%83%B6%E6%83%B6%E7%BB%88%E6%97%A5/</url>
+    <content><![CDATA[<p>多日不更新博客，还在考虑写博客究竟是要作为一种习惯，还是用以接下偶尔涌出的文字与水流。<br><span id="more"></span><br>惶惶不可终日，也照样面临一日日的潮起潮落。日子的模样是如此的难以捉摸，自从从童年的卵巢内离开（代价是否定了无疑性，一种全然接受的强力），独自捏造日子的面容开始，一切都陌生、浮动、折磨。<br>故而建立<a href="/2022/02/23/%E7%B2%BE%E7%A5%9E%E7%97%85%E5%AD%A6-%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/" title="精神病学&#x2F;神经科学">精神病学&#x2F;神经科学</a>，用于记录对精神病的了解，以及对自己的疗愈。虽博客名过于宏大，但并不像”某某学“那样具有必然的普适性，科学在其中或许只是作为一种安慰剂。<br>最近的惶惶与过去不同，以精神分析的语言描述：错把触摸到的小他者当作了大他者。相似之处是，最近与过去面临的都是匮乏。我质问：”为什么与过去不同？“，一遍遍地质问为什么”不做“。(这一点在<a href="/2022/01/08/%E3%80%8A%E8%AE%BA%E5%AE%B6%E7%94%A8%E7%94%B5%E5%99%A8%E3%80%8B%E4%BB%A5%E5%8F%8A%E3%80%8A%E6%A2%A6%E7%9A%84%E5%AE%87%E5%AE%99%E5%BF%97%E3%80%8B%E7%9A%84%E7%AC%94%E8%AE%B0/" title="《论家用电器》以及《梦的宇宙志》的笔记">《论家用电器》以及《梦的宇宙志》的笔记</a>中有涉及[[《论家用电器》以及《梦的宇宙志》的笔记#^bbbffd]]）他的沉默让我发狂，这种无回应不得不将我拉回到我自身的匮乏。阿谭曾经对我说过，要是面前有人就好了。我也曾耽于这般的幻想，”面前有人“——实则是不存在的大他者。<br>几乎一两天必哭一次的日子，总是会结束的。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
 </search>
