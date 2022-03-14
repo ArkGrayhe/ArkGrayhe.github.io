@@ -83,30 +83,34 @@
   <entry>
     <title>建站记录</title>
     <url>/2022/01/08/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>建站记录以及一些引申出来的学习记录。</p>
-<span id="more"></span>
-<h1 id="建站小史"><a href="#建站小史" class="headerlink" title="建站小史"></a>建站小史</h1><h2 id="2022-x2F-1-x2F-8"><a href="#2022-x2F-1-x2F-8" class="headerlink" title="2022&#x2F;1&#x2F;8"></a>2022&#x2F;1&#x2F;8</h2><p>从十二月末到今天，参考<a href="https://www.jianshu.com/p/84a8384be1ae">Hexo使用指南 - 简书 (jianshu.com)</a>建立了本站。<br>中途遇到了很多问题，当然也有所得：<br>1.由于git无法拉取，参考了<a href="https://blog.csdn.net/LJFPHP/article/details/82705764">(21条消息) git 无法拉取项目，本地ping不通github的解决办法（详解）_铁柱的博客-CSDN博客_git无法拉取项目</a><br>2.由此学习了计算机网络的基础知识：<a href="https://blog.csdn.net/wangdongm123/article/details/103967972">(21条消息) 计算机网络基础（一）：IP地址_wangdongm123的博客-CSDN博客_计算机网络ip地址</a></p>
+    <content><![CDATA[<p>建站记录以及一些引申出来的学习记录。<br><span id="more"></span></p>
+<h1 id="建站小史"><a href="#建站小史" class="headerlink" title="建站小史"></a>建站小史</h1><h2 id="2022-1-8"><a href="#2022-1-8" class="headerlink" title="2022/1/8"></a>2022/1/8</h2><p>从十二月末到今天，参考<a href="https://www.jianshu.com/p/84a8384be1ae">Hexo使用指南 - 简书 (jianshu.com)</a>建立了本站。<br>中途遇到了很多问题，当然也有所得：<br>1.由于git无法拉取，参考了<a href="https://blog.csdn.net/LJFPHP/article/details/82705764">(21条消息) git 无法拉取项目，本地ping不通github的解决办法（详解）_铁柱的博客-CSDN博客_git无法拉取项目</a><br>2.由此学习了计算机网络的基础知识：<a href="https://blog.csdn.net/wangdongm123/article/details/103967972">(21条消息) 计算机网络基础（一）：IP地址<em>wangdongm123的博客-CSDN博客</em>计算机网络ip地址</a></p>
 <p>最终修改了一下hosts，也按照文章用了route，依然ping不通github.com，但姑且把站建好了。</p>
 <p>由于刚开始用markdown写作，在这里贴几个辅助写作的基础参考：<br><a href="https://markdown.com.cn/">Markdown 官方教程</a><br><a href="https://hexo.io/zh-cn/docs/tag-plugins">标签插件（Tag Plugins） | Hexo</a><br><a href="https://hyxxsfwy.github.io/2016/01/15/Hexo-Markdown-%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/">Hexo Markdown 简明语法手册 | Mobilicorpus (hyxxsfwy.github.io)</a></p>
-<h2 id="2022-x2F-1-x2F-10"><a href="#2022-x2F-1-x2F-10" class="headerlink" title="2022&#x2F;1&#x2F;10"></a>2022&#x2F;1&#x2F;10</h2><p>昨天晚上参考<a href="https://zhuanlan.zhihu.com/p/166523064">Visual Studio Code (vscode)配置LaTeX - 知乎 (zhihu.com)</a>在vscode中配置好了LaTeX。</p>
+<h2 id="2022-1-10"><a href="#2022-1-10" class="headerlink" title="2022/1/10"></a>2022/1/10</h2><p>昨天晚上参考<a href="https://zhuanlan.zhihu.com/p/166523064">Visual Studio Code (vscode)配置LaTeX - 知乎 (zhihu.com)</a>在vscode中配置好了LaTeX。</p>
 <p>为了记最优化学习笔记，参考了:<br>1.<a href="https://www.jianshu.com/p/7ab21c7f0674">在Hexo中渲染MathJax数学公式 - 简书 (jianshu.com)</a><br>2.<a href="https://liam.page/2014/09/08/latex-introduction/">一份其实很短的 LaTeX 入门文档 | 始终 (liam.page)</a><br>3.<a href="https://katex.org/docs/supported.html">Supported Functions · KaTeX</a></p>
 <p>以及目前的写作工具为Obsidian，功能还需摸索。</p>
-<h2 id="2022-x2F-1-x2F-12"><a href="#2022-x2F-1-x2F-12" class="headerlink" title="2022&#x2F;1&#x2F;12"></a>2022&#x2F;1&#x2F;12</h2><p>参考：<a href="https://blog.csdn.net/as480133937/article/details/100138838">(22条消息) Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_Z小旋-CSDN博客_hexo next主题配置</a></p>
+<h2 id="2022-1-12"><a href="#2022-1-12" class="headerlink" title="2022/1/12"></a>2022/1/12</h2><p>参考：<a href="https://blog.csdn.net/as480133937/article/details/100138838">(22条消息) Hexo-Next 主题博客个性化配置超详细，超全面(两万字)_Z小旋-CSDN博客_hexo next主题配置</a></p>
 <ul>
 <li>新建标签及分类界面，遇到问题：<a href="https://sspai.com/post/59568">hexo next 主题优化 | 这里可能有你遇到所有问题的答案 - 少数派 (sspai.com)</a></li>
 <li>浏览页面显示当前浏览进度;</li>
 <li>Local Search本地搜索；</li>
 <li>设置网站图标；</li>
 </ul>
-<h2 id="2022-x2F-2-x2F-23"><a href="#2022-x2F-2-x2F-23" class="headerlink" title="2022&#x2F;2&#x2F;23"></a>2022&#x2F;2&#x2F;23</h2><ul>
+<h2 id="2022-2-23"><a href="#2022-2-23" class="headerlink" title="2022/2/23"></a>2022/2/23</h2><ul>
 <li>学习用Obsidian（Obsidian，你好强大！）：<ul>
-<li><a href="https://www.bilibili.com/video/BV1SA411i7BG">Obsidian：目前我们眼中最美最好用的免费笔记&#x2F;知识管理软件_哔哩哔哩_bilibili</a></li>
+<li><a href="https://www.bilibili.com/video/BV1SA411i7BG">Obsidian：目前我们眼中最美最好用的免费笔记/知识管理软件_哔哩哔哩_bilibili</a></li>
 <li><a href="https://www.bilibili.com/video/BV18a411r7mt/?spm_id_from=333.788.recommend_more_video.-1">也许是B站最好的Obsidian新手教程！爆肝30天，一站式入门双向链接笔记软件_哔哩哔哩_bilibili</a></li>
 </ul>
 </li>
 <li><a href="https://www.jianshu.com/p/f91c170e7fa7">Markdown 注释 - 简书 (jianshu.com)</a></li>
 <li>一些hexo插件参考：<a href="https://loafing.cn/posts/hexo-tags.html">「推荐」本站用到的 hexo 插件 | 若风 (loafing.cn)</a></li>
-<li><a href="https://cloud.tencent.com/developer/article/1736563">hexo博客中如何插入图片 - 云+社区 - 腾讯云 (tencent.com)</a></li>
+<li>采用第二种方法配置了hexo：<a href="https://cloud.tencent.com/developer/article/1736563">hexo博客中如何插入图片 - 云+社区 - 腾讯云 (tencent.com)</a></li>
+</ul>
+<h2 id="2022-3-9"><a href="#2022-3-9" class="headerlink" title="2022/3/9"></a>2022/3/9</h2><p>添加友链：</p>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/424932365">Next主题设置-添加标签云、友情链接 - 知乎 (zhihu.com)</a></li>
+<li><a href="https://finisky.github.io/simplestblogroll/">最简单的Hexo友情链接页面定制 | Finisky Garden</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -810,8 +814,8 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
 <li>形喻：可以作为独立符号发挥作用的，诸如代表尴尬的汗滴，表示颤抖的波浪线。</li>
 <li>音喻：拟音、拟态词。漫画把听觉（&#x3D;时间上）的东西也作为图画或文字这样视觉（&#x3D;空间上）的东西来描绘。（文字是时间性的，绘画是空间性的）</li>
 <li>（康定斯基）左侧通向远方；右侧通向家。</li>
+<li>少女漫画中的分格，引导读者阅读顺序的分节时间的功能变得相当弱化，利用装饰性空白，优先造成瞬间并置的印象。</li>
 </ul>
-<p>7.少女漫画中的分格，引导读者阅读顺序的分节时间的功能变得相当弱化，利用装饰性空白，优先造成瞬间并置的印象。</p>
 </blockquote>
 <ul>
 <li>有时候紧张的局面对于人物的特写也有瞬间并置的感觉，但没有装饰性空白。</li>
@@ -824,9 +828,10 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
 <li>质问恋爱可能性——冈崎京子：身份的错位通过网点纸的错位体现。</li>
 </ul>
 </blockquote>
-<p> <img src="/images/%E5%86%88%E5%B4%8E%E4%BA%AC%E5%AD%90.jpg" alt="冈崎京子"></p>
+<p> <img src="/images/%E5%86%88%E5%B4%8E%E4%BA%AC%E5%AD%90.jpg" alt="冈崎京子"><br> （简直和我的恋爱状态一样）</p>
 ]]></content>
       <categories>
+        <category>兴趣</category>
         <category>Reading</category>
       </categories>
       <tags>
@@ -849,7 +854,8 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
   <entry>
     <title>精神病学/神经科学</title>
     <url>/2022/02/23/%E7%B2%BE%E7%A5%9E%E7%97%85%E5%AD%A6-%E7%A5%9E%E7%BB%8F%E7%A7%91%E5%AD%A6/</url>
-    <content><![CDATA[<p>这篇博客的滥觞：[[惶惶终日]]<a href="/2022/02/23/%E6%83%B6%E6%83%B6%E7%BB%88%E6%97%A5/" title="惶惶终日">惶惶终日</a><br>过去所写：[[抑郁作为经验]]<a href="/2022/01/12/%E6%8A%91%E9%83%81%E4%BD%9C%E4%B8%BA%E7%BB%8F%E9%AA%8C/" title="抑郁作为经验">抑郁作为经验</a><br><span id="more"></span></p>
+    <content><![CDATA[<p>这篇博客的滥觞：[[惶惶终日]]<a href="/2022/02/23/%E6%83%B6%E6%83%B6%E7%BB%88%E6%97%A5/" title="惶惶终日">惶惶终日</a><br>过去所写：[[抑郁作为经验]]<a href="/2022/01/12/%E6%8A%91%E9%83%81%E4%BD%9C%E4%B8%BA%E7%BB%8F%E9%AA%8C/" title="抑郁作为经验">抑郁作为经验</a></p>
+<span id="more"></span>
 <h1 id="精神分析"><a href="#精神分析" class="headerlink" title="精神分析"></a>精神分析</h1><p>（2022-02-23）</p>
 <blockquote>
 <p>他无时无刻不在经受着一种虐待，一种无人揭示、却无时无刻不在向他施加的，一种极端的冷漠。他者激起了这种冷漠，他感觉到了这一点，他无数次地想要引起对方的思维，索求一点回应，又时刻被无意义性侵袭，时刻抵抗，突然在这个空间的挤压中失去了抗性。精神病，是关于抹除的隐喻。<br><a href="https://www.bilibili.com/video/BV1Ni4y177Cx?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click">于评论区，有所修改：【精神病学访谈】反社会人格_哔哩哔哩_bilibili</a> </p>
@@ -857,7 +863,7 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
 <p>精神病的言语：不断重复的“一种”，其中包含着<strong>模糊性</strong>，也表现了语言本身的无力。健全的人，蔑视的人，另一种精神病要问：”哪种？“。在触摸文学之前觉得过于沉重的词语附着在表达里，”虐待“”冷漠“”抵抗“”抹除“，以及必然的”痛苦“和”无意义“。但不要忘记，这些语言本身就承担了自虐的职能。<br>贴出来是因为与形式不同，其内容非常<strong>准确</strong>。非常文学，但非常准确。精神分析的回答是：</p>
 <ul>
 <li><a href="/2022/02/23/%E6%83%B6%E6%83%B6%E7%BB%88%E6%97%A5/" title="惶惶终日">惶惶终日</a>中粗糙的体验：何为“大他者的匮乏”</li>
-<li>来源：<a href="https://www.bilibili.com/video/BV1344y117Zd?from=search&amp;seid=4852804208581468949&amp;spm_id_from=333.337.0.0">齐泽克：为什么精神分析的本质是【诈欺】？（狗子字幕组）_哔哩哔哩_bilibili</a><ul>
+<li>来源：<a href="https://www.bilibili.com/video/BV1344y117Zd?from=search&seid=4852804208581468949&spm_id_from=333.337.0.0">齐泽克：为什么精神分析的本质是【诈欺】？（狗子字幕组）_哔哩哔哩_bilibili</a><ul>
 <li>因为被分析者对分析师移情，分析师会变成假定能知的主体，占据了大他者的位置。但其实分析师是无知的，占据大他者的位置却不断沉默。最终被分析者穿越大他者存在的幻想，整个意义系统是不完备的，象征界中心是有洞的，只能停止寻求外部的支撑，自己分析自己。</li>
 <li>原理：被分析者针对分析师会体验一种原初焦虑（齐泽克的Che Vuoi？），被分析者不停地说以填补作为大他者的分析师的欲望，但最终意识到大他者的匮乏。</li>
 <li>从desire到drive，必须直面没有最终的回答的事实。精神分析把意义的世界化约到无意义的点位。</li>
@@ -874,6 +880,64 @@ s.t.\quad  x \in \chi</script><p>决策变量：$x=(x_1,x_2,…,x_n)^T \in R^n$;
 </li>
 </ul>
 <h2 id="药理"><a href="#药理" class="headerlink" title="药理"></a>药理</h2><h3 id="底层原理"><a href="#底层原理" class="headerlink" title="底层原理"></a>底层原理</h3>]]></content>
+      <categories>
+        <category>兴趣</category>
+      </categories>
+      <tags>
+        <tag>阅读笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从垃圾桶里捡到的情感电台</title>
+    <url>/2022/03/09/%E4%BB%8E%E5%9E%83%E5%9C%BE%E6%A1%B6%E9%87%8C%E6%8D%A1%E5%88%B0%E7%9A%84%E6%83%85%E6%84%9F%E7%94%B5%E5%8F%B0/</url>
+    <content><![CDATA[<p>施工中！<br>近日经历了一场决断，而算法比我更敏感地翻找着被我仍在垃圾桶里的东西，不敢说挖出了黄金但也有必要记录下来。</p>
+<span id="more"></span>
+<h1 id="来源"><a href="#来源" class="headerlink" title="来源"></a>来源</h1><p><a href="https://space.bilibili.com/426915863">林有感的个人空间_哔哩哔哩_bilibili</a>以及朋友的劝慰。<br>视频太多，沿时间线随便看了一些。</p>
+<!--
+# 林林总总·（伪）正文
++ 警惕“我不会提分手，让你提分手。””我总是想要继续的。“
++ 冷暴力过后又突然示好，可能是为了控制。
++ 恋爱前期感受很好，对人包容度高，可能只是因为省事。
++ 很少记忆对方的信息，不想要过多了解对方，不付出实际行动解决问题。
++ 节约互动，从不主动。
++ 不公开关系。
++ 要喜欢我的特质，真正被我吸引，能说出具体的形容。
+-->
+<h1 id="如果让我锐评"><a href="#如果让我锐评" class="headerlink" title="如果让我锐评"></a>如果让我锐评</h1><p>过去几年我没有建立过真正的亲密关系（特指恋爱），并且厌恶着中文互联网上用来形容恋爱的一系列符号：渣，追，撩，舔等等。每次不得不提及，就必须用别的说法代替。<br>但这次与朋友谈及，颠覆了我的一些看法，或者说至少产生了一些容纳这些词的余地。并且这些词是切实能对人产生作用的，有力的。一个始终信任恋爱对象的人会因为别人将渣男一词对准其对象，而能够开始反思自己一贯的信任是否是虚假的。<br>尽管我认为渣男这样的词不能做到客观地评价一个人，甚至这么说对对方很不公平，但有时候亲密关系中就需要主观，或者说回归自己的看法，遵循自己的准则。</p>
+<h1 id="尾声，或者（true）正文"><a href="#尾声，或者（true）正文" class="headerlink" title="尾声，或者（true）正文"></a>尾声，或者（true）正文</h1><ul>
+<li>阿谭给的糖，收到真的很开心。想起来阿谭在前些日子里对我说希望可以早点结束、长痛不如短痛的话，甚至还有一次明确和我说”他是不是想要逼你提分手“，其实一直是旁观者清的。<!--虽然阿谭也没有什么恋爱经验，可能也不知道如何劝慰我，但对我来说真诚以及共情能力，以及一些难以捉摸的相似性，这些足够珍贵了。--></li>
+</ul>
+<p> <img src="/images/%E9%98%BF%E8%B0%AD%E7%BB%99%E7%9A%84%E7%B3%96.jpg" alt="阿谭给的糖"></p>
+<ul>
+<li><p>也和与他同岁的Crystal聊了天，立马接到的电话以及第二天的公园散步都让我很感谢。如果没有Crystal我不可能像现在这样果断。我惊讶于她的善良，活力，健谈，以及丰富的生活经验，</p>
+</li>
+<li><p>与母亲开口聊聊恋爱的话题对我来说非常艰难。我并非不愿意与母亲交流，但始终有一种羞耻感难以挥散。是Crystal的话让我下定决心，在凌晨与母亲（看似）坦然地说这件事。</p>
+</li>
+<li><p>以及感谢在3月5日与我长谈的陌生人，寄予了我与朋友开口相谈之前最大的帮助。</p>
+</li>
+<li><p>至于他，我始终认为很优秀，并且仍然有吸引我的地方。只不过是时候彻底切断这一段病态而绝望的关系了（或许真正的亲密关系只持续到了九月），从12月到昨日我未曾停息过流泪，尊严尽失地祈求他做些什么或说些什么，而得到的除了沉默就是“不知道该怎么做”。虽然期间为了磨合作出无数的退让，无法坚定自己的信念却始终会痛苦，我最终会摆脱他的规则，相信自己的感觉。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Reading</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+        <tag>阅读笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>音乐</title>
+    <url>/2022/03/14/%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p><a href="https://www.bilibili.com/video/BV1sW411a7nM?p=1">【高清】聆听音乐（23集全）-耶鲁大学- 中英字幕_哔哩哔哩_bilibili</a></p>
+<ul>
+<li>注意音乐的走向带来的表达效果</li>
+</ul>
+]]></content>
+      <categories>
+        <category>兴趣</category>
+      </categories>
       <tags>
         <tag>阅读笔记</tag>
       </tags>
