@@ -1809,9 +1809,9 @@
   <entry>
     <title>专业学习|数据挖掘</title>
     <url>/2022/11/08/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</url>
-    <content><![CDATA[<p>这学期终于恢复了常态化学习。本篇笔记大致梳理脉络以及提供学习reference。以后重新整合概率统计、机器学习、最优化、模式识别的内容。</p>
+    <content><![CDATA[<p>这学期终于恢复了常态化学习。本篇笔记大致梳理脉络以及提供学习reference。以后重新整合概率统计、机器学习、最优化、模式识别的内容。还没有完全想好应该怎么记笔记，目前的想法是无纸化写公式，纸上多写写例子（可以拍照传上来，这样就多了一个网站优化图片加载速度的todo）。</p>
 <span id="more"></span>
-<h1 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h1><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>![[dataminingtest.png]]</p>
+<h1 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h1><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><img src="/images/dataminingtest.png" alt="dataset"></p>
 <h3 id="考试要求"><a href="#考试要求" class="headerlink" title="考试要求"></a>考试要求</h3><p>针对考试整理一下脉络：</p>
 <ol>
 <li>数据预处理：处理噪声、归一化（why&amp;how）、不平衡数据</li>
