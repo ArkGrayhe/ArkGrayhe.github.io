@@ -2085,12 +2085,23 @@
 <li>可以将簇与噪声分开</li>
 <li>对噪声鲁棒性较高</li>
 <li>参数难以确定</li>
-<li>对参数较敏感<h3 id="异常检测"><a href="#异常检测" class="headerlink" title="异常检测"></a>异常检测</h3></li>
+<li>对参数较敏感<h3 id="异常检测"><a href="#异常检测" class="headerlink" title="异常检测"></a>异常检测</h3><h4 id="种类"><a href="#种类" class="headerlink" title="种类"></a>种类</h4><h5 id="基于密度（统计）"><a href="#基于密度（统计）" class="headerlink" title="基于密度（统计）"></a>基于密度（统计）</h5>$$p(x)&#x3D;\prod_{j&#x3D;1}^n\frac{1}{\sqrt{2\pi}\sigma_j}exp(-\frac{(x_j-\mu_j)^2}{2\sigma_j^2})\<br>\text{Anomaly if }p(x)&lt;\epsilon.<br>$$<br>$\epsilon$是threshold参数。</li>
 </ul>
 </li>
 </ul>
 </li>
 </ol>
+<h5 id="将聚类转化为异常检测"><a href="#将聚类转化为异常检测" class="headerlink" title="将聚类转化为异常检测"></a>将聚类转化为异常检测</h5><ul>
+<li>基于距离，对象异常值分数为与第k个最近邻的距离。</li>
+<li>基于密度，是对象周围密度的倒数。<ul>
+<li>优化为相对密度：<ul>
+<li>$\frac{dist(x,y)}{\sum dist(y_i,k)&#x2F;k}$</li>
+<li>$\frac{\sum density(y_k,k)&#x2F;k}{density(x,k)}$</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h3 id="关联规则"><a href="#关联规则" class="headerlink" title="关联规则"></a>关联规则</h3><h4 id="两种方法"><a href="#两种方法" class="headerlink" title="两种方法"></a>两种方法</h4><h5 id="Ariori"><a href="#Ariori" class="headerlink" title="Ariori"></a>Ariori</h5><ul>
 <li>评价指标：<ul>
 <li>Support(S)：同时包含X与Y的Transaction的比例，minsup为阈值</li>
