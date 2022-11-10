@@ -29,7 +29,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://arkgrayhe.github.io/images/dataminingtest.png">
 <meta property="article:published_time" content="2022-11-08T15:32:10.000Z">
-<meta property="article:modified_time" content="2022-11-09T12:29:51.257Z">
+<meta property="article:modified_time" content="2022-11-10T08:09:56.552Z">
 <meta property="article:author" content="Arkgrayhe">
 <meta property="article:tag" content="AI">
 <meta name="twitter:card" content="summary">
@@ -221,7 +221,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2022-11-09 20:29:51" itemprop="dateModified" datetime="2022-11-09T20:29:51+08:00">2022-11-09</time>
+                <time title="Modified: 2022-11-10 16:09:56" itemprop="dateModified" datetime="2022-11-10T16:09:56+08:00">2022-11-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -244,13 +244,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>这学期终于恢复了常态化学习。本篇笔记大致梳理脉络以及提供学习reference。以后重新整合概率统计、机器学习、最优化、模式识别的内容。还没有完全想好应该怎么记笔记，目前的想法是无纸化写公式，纸上多写写例子（可以拍照传上来，这样就多了一个网站优化图片加载速度的todo）。<br><span id="more"></span></p>
+        <p>这学期终于恢复了常态化学习。本篇笔记大致梳理脉络以及提供学习reference。以后重新整合概率统计、机器学习、最优化、模式识别的内容。还没有完全想好应该怎么记笔记，目前的想法是无纸化写公式，纸上多写写例子（可以拍照传上来，这样就多了一个网站优化图片加载速度的todo）。</p>
+<span id="more"></span>
 <h1 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h1><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p><img src="/images/dataminingtest.png" alt="dataset"></p>
 <h3 id="考试要求"><a href="#考试要求" class="headerlink" title="考试要求"></a>考试要求</h3><p>针对考试整理一下脉络：</p>
 <ol>
 <li>数据预处理：处理噪声、归一化（why&amp;how）、不平衡数据</li>
-<li>分类算法：三种分类方法；划分训练集（是否产生影响）；不同性能度量和适配度；参数对结果的影响；算法优缺点</li>
-<li>集成学习：把分类问题转化为集成学习问题；一种集成方法；对比集成方法和分类方法</li>
+<li>分类算法：三种分类方法；划分训练集（是否产生影响）；不同性能度量和适配度；参数对结果的影响；<strong>算法优缺点</strong></li>
+<li>集成学习：把分类问题转化为集成学习问题；一种集成方法；<strong>对比集成方法和分类方法</strong></li>
 <li>聚类：把分类问题转化为聚类问题；一种聚类方法；参数的影响；算法初始化的影响</li>
 <li>异常检测：聚类改成异常检测；求解；</li>
 <li>关联规则：两种方法；求解</li>
@@ -260,8 +261,8 @@
 <h4 id="归一化"><a href="#归一化" class="headerlink" title="归一化"></a>归一化</h4><p>归一化参考文章：<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/76682561">数据归一化 - 知乎 (zhihu.com)</a><br>理论课上有讲。数值化后需要归一化，把所有数据归一化到均值为0方差为1的分布中。KNN对尺度很敏感，如果不归一做出来天差地别。</p>
 <ol>
 <li>简单地除以最大值</li>
-<li>最值归一化（Normalization）<script type="math/tex">x_{scale}=\frac{x-x_{mean}}{x_{scale}}</script></li>
-<li>均值归一化（Standardization）<script type="math/tex">x_{scale}=\frac{x-x_{min}}{x_{max}-x_{min}}</script></li>
+<li>最值归一化（Normalization）$$ x_{scale}&#x3D;\frac{x-x_{mean}}{x_{scale}} $$</li>
+<li>均值归一化（Standardization）$$ x_{scale}&#x3D;\frac{x-x_{min}}{x_{max}-x_{min}} $$</li>
 </ol>
 <h4 id="不平衡数据"><a href="#不平衡数据" class="headerlink" title="不平衡数据"></a>不平衡数据</h4><ol>
 <li>Collect more data</li>
@@ -292,11 +293,11 @@
 </li>
 </ul>
 <h3 id="分类算法"><a href="#分类算法" class="headerlink" title="分类算法"></a>分类算法</h3><h4 id="三种"><a href="#三种" class="headerlink" title="三种"></a>三种</h4><h5 id="相似度度量：Jaccard、cosine、Pearson"><a href="#相似度度量：Jaccard、cosine、Pearson" class="headerlink" title="相似度度量：Jaccard、cosine、Pearson"></a>相似度度量：Jaccard、cosine、Pearson</h5><ul>
-<li>Jaccard相关性<script type="math/tex; mode=display">J=\frac{f_{11}}{f_{01}+f_{10}+f_{11}}</script></li>
-<li>cosine相关性<script type="math/tex; mode=display">cos(d_1,d_2)=\frac{⟨d_1,d_2⟩}{\lVert d_1 \rVert\lVert d_2 \rVert}</script></li>
-<li>Pearson相关性<script type="math/tex; mode=display">corr(x,y)=\frac{s_{xy}}{s_xs_y}</script><script type="math/tex; mode=display">s_{xy}=\frac{1}{n-1}\textstyle\sum_{k=1}^n(x_k-\overline{x})(y_k-\overline{y})</script><script type="math/tex; mode=display">s_{x}=\sqrt{\smash[b]{\frac{1}{n-1}\textstyle\sum_{k=1}^n(x_k-\overline{x})^2}}</script><script type="math/tex; mode=display">s_{y}=\sqrt{\smash[b]{\frac{1}{n-1}\textstyle\sum_{k=1}^n(y_k-\overline{y})^2}}</script><h5 id="决策树：Gini、熵"><a href="#决策树：Gini、熵" class="headerlink" title="决策树：Gini、熵"></a>决策树：Gini、熵</h5>原则是分得越开越好，Gini和熵越低越好。<strong>这里最小化信息熵需要后续参考reference</strong><br>区别两种划分：<br>M为度量，Gini或熵。<script type="math/tex; mode=display">Gain=max\{M_0-M_{12},M_0-M_{34}\}</script></li>
+<li>Jaccard相关性<br>$$J&#x3D;\frac{f_{11}}{f_{01}+f_{10}+f_{11}}$$</li>
+<li>cosine相关性<br>$$cos(d_1,d_2)&#x3D;\frac{⟨d_1,d_2⟩}{\lVert d_1 \rVert\lVert d_2 \rVert}$$</li>
+<li>Pearson相关性<br>$$corr(x,y)&#x3D;\frac{s_{xy}}{s_xs_y}$$<br>$$s_{xy}&#x3D;\frac{1}{n-1}\textstyle\sum_{k&#x3D;1}^n(x_k-\overline{x})(y_k-\overline{y})$$<br>$$s_{x}&#x3D;\sqrt{\smash[b]{\frac{1}{n-1}\textstyle\sum_{k&#x3D;1}^n(x_k-\overline{x})^2}}$$<br>$$s_{y}&#x3D;\sqrt{\smash[b]{\frac{1}{n-1}\textstyle\sum_{k&#x3D;1}^n(y_k-\overline{y})^2}}$$<h5 id="决策树：Gini、熵"><a href="#决策树：Gini、熵" class="headerlink" title="决策树：Gini、熵"></a>决策树：Gini、熵</h5>原则是分得越开越好，Gini和熵越低越好。<strong>这里最小化信息熵需要后续参考reference</strong><br>区别两种划分：<br>M为度量，Gini或熵。<br>$$Gain&#x3D;max{M_0-M_{12},M_0-M_{34}}$$</li>
 <li>GINI<ul>
-<li>CART基于GINI建立。        </li>
+<li>CART基于GINI建立。</li>
 </ul>
 </li>
 <li>Entropy<h5 id="随机森林：CART-Classification-and-Regression-Trees"><a href="#随机森林：CART-Classification-and-Regression-Trees" class="headerlink" title="随机森林：CART(Classification and Regression Trees)"></a>随机森林：CART(Classification and Regression Trees)</h5></li>
@@ -306,7 +307,7 @@
 <li>特征重要性<ul>
 <li>对每棵树用OOB计算其误差errOOB1</li>
 <li>对OOB中的特征X加入噪声干扰，计算出errOOB2</li>
-<li>对N棵树，特征重要性=$\sum(errOOB2-errOOB1)/N$</li>
+<li>对N棵树，特征重要性&#x3D;$\sum(errOOB2-errOOB1)&#x2F;N$</li>
 </ul>
 </li>
 </ul>
@@ -315,46 +316,188 @@
 <h5 id="Adaboost"><a href="#Adaboost" class="headerlink" title="Adaboost"></a>Adaboost</h5><ul>
 <li>找到若干弱分类器，通过计算分类器的权重和点的权重迭代。</li>
 <li>迭代过程<ul>
-<li>点的权重$w=\frac{1}{N}$，错误率$\epsilon=\sum_{wrong}w_i$，选出错误率最小的弱分类器，算出其权重$\alpha=\frac{1}{2}\log\frac{1-\epsilon}{\epsilon}$，得到新的集成训练器$f(x_i)=\sum_{t=1}^T\alpha_ih_t(x_i)$，得到所有点的新权重:<script type="math/tex; mode=display">w_{new}=\begin{cases}
-\frac{w_{old}}{2(1-\epsilon)}&\text{if classified correctly}\\
-\frac{w_{old}}{2\epsilon}&\text{if classified wrongly}
-\end{cases}</script></li>
+<li>点的权重$w&#x3D;\frac{1}{N}$，错误率$\epsilon&#x3D;\sum_{wrong}w_i$，选出错误率最小的弱分类器，算出其权重$\alpha&#x3D;\frac{1}{2}\log\frac{1-\epsilon}{\epsilon}$，得到新的集成训练器$f(x_i)&#x3D;\sum_{t&#x3D;1}^T\alpha_ih_t(x_i)$，得到所有点的新权重:<br>   $$w_{new}&#x3D;\begin{cases}<br>  \frac{w_{old}}{2(1-\epsilon)}&amp;\text{if classified correctly}\<br>  \frac{w_{old}}{2\epsilon}&amp;\text{if classified wrongly}<br>  \end{cases}<br>  $$</li>
 </ul>
 </li>
 </ul>
 <h5 id="KNN"><a href="#KNN" class="headerlink" title="KNN"></a>KNN</h5><ul>
-<li>求k近邻，投票。<h5 id="Naive-Bayes"><a href="#Naive-Bayes" class="headerlink" title="Naive Bayes"></a>Naive Bayes</h5>贝叶斯分类器：<script type="math/tex">argmax P(Y|X_1,X_2,...X_n)</script><script type="math/tex; mode=display">P(Y|X_1,X_2,...X_n)=\frac{P(X_1,X_2,...X_n|Y)P(Y)}{P(X_1,X_2,...X_n)}</script>其中$P(X_1,X_2,…X_n|Y)$为likelihood（自然函数），$P(X_1,X_2,…X_n|Y)$为条件概率，$P(Y)$为prior（先验概率），$P(X_1,X_2,…X_n)$为Nomalization Constant（归一化因子）。<h5 id="SVM"><a href="#SVM" class="headerlink" title="SVM"></a>SVM</h5></li>
+<li><p>求k近邻，投票。</p>
+<h5 id="Naive-Bayes"><a href="#Naive-Bayes" class="headerlink" title="Naive Bayes"></a>Naive Bayes</h5></li>
+<li><p>贝叶斯分类器：</p>
+<ul>
+<li>$$argmax P(Y|X_1,X_2,…X_n)$$$$P(Y|X_1,X_2,…X_n)&#x3D;\frac{P(X_1,X_2,…X_n|Y)P(Y)}{P(X_1,X_2,…X_n)}$$其中$P(X_1,X_2,…X_n|Y)$为likelihood（自然函数），$P(X_1,X_2,…X_n|Y)$为条件概率，$P(Y)$为prior（先验概率），$P(X_1,X_2,…X_n)$为Nomalization Constant（归一化因子）。</li>
 </ul>
-<h4 id="划分训练集"><a href="#划分训练集" class="headerlink" title="划分训练集"></a>划分训练集</h4><p>hold-out、分层采样、bootstrap、k折交叉</p>
-<h4 id="不同性能度量和适配度"><a href="#不同性能度量和适配度" class="headerlink" title="不同性能度量和适配度"></a>不同性能度量和适配度</h4><ul>
-<li>ACC</li>
-<li>AUC</li>
-<li>Recall</li>
-<li>混淆矩阵<h4 id="算法优缺点"><a href="#算法优缺点" class="headerlink" title="算法优缺点"></a>算法优缺点</h4>待更新desu</li>
+</li>
+<li><p>朴素贝叶斯假设：<br>  $$P(X_1,X_2,…X_n|Y)&#x3D;\prod_{i&#x3D;1}^nP(X_i|Y)$$<br>  即假设每个条件概率独立。</p>
+</li>
+<li><p>朴素贝叶斯训练</p>
+<ul>
+<li>Prior$$P(Y&#x3D;v)&#x3D;\frac{Count(Y_i&#x3D;v)}{\text{Count(record)}}$$</li>
+<li>Likelihood$$P(X_i&#x3D;u|Y&#x3D;v)&#x3D;\frac{Count(X_i&#x3D;u\bigwedge Y_i&#x3D;v)}{Count(Y&#x3D;v)}$$<h5 id="SVM"><a href="#SVM" class="headerlink" title="SVM"></a>SVM</h5></li>
+</ul>
+</li>
+<li><p>核心：间隔、对偶、核技巧</p>
+</li>
+<li><p>解决问题：</p>
+<ul>
+<li>$$<br>  \begin{equation} min_{w,b} \frac{\lVert w^2 \rVert}{2}\<br>  s.t.  y_i(w\cdot x_i+b)\ge 1.\<br>  i&#x3D;1,2,…n.<br>  \end{equation}<br>  $$</li>
+</ul>
+</li>
+<li><p>凸优化问题：转化为对偶问题。</p>
+</li>
+<li><p>拉格朗日函数：</p>
+</li>
+<li><p>$$L(w,b,\alpha)&#x3D;\frac{\lVert w^2 \rVert}{2}-\sum_{i&#x3D;1}^N\alpha_i(y_i(wx_i+b)-1)(\alpha_i\ge0)$$</p>
+<ul>
+<li>需要解决的的问题就是：$min_{w,b}max_{\alpha_i \ge0}L(w,b,\alpha)$</li>
+<li>化为对偶问题，用KKT条件求解，得到：<ul>
+<li>$\tag{1} \sum_{i&#x3D;1}^N\alpha_iy_ix_i&#x3D;w$</li>
+<li>$\tag{2} \sum_{i&#x3D;1}^N\alpha_iy_i&#x3D;0$</li>
+<li>$\tag{3} -(y_i(wx_i+b)-1)\le 0$</li>
+<li>$\tag{4} \alpha_i\ge0$</li>
+</ul>
+</li>
+<li>只需要再满足$\tag{5} \alpha_i(y_i(wx_i+b)-1)&#x3D;0$，支持向量需要满足这个条件，其他点$\alpha_i&#x3D;0$。<ul>
+<li>故而只需求解：$max_{\alpha_i\ge 0}(\sum \alpha_i-\frac{1}{2}\sum\alpha_i\alpha_jy_iy_jx_i\cdot x_j)$。得出了$\alpha$其他就很明朗了。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>核技巧</p>
+<ul>
+<li>升维使得样本点线性可分。</li>
+</ul>
+</li>
+<li><p>软硬件隔</p>
+<h4 id="划分训练集"><a href="#划分训练集" class="headerlink" title="划分训练集"></a>划分训练集</h4><p>hold-out、分层采样、bootstrap、（p次）k折交叉<br>都是OOB。</p>
+<h4 id="不同性能度量和适配度"><a href="#不同性能度量和适配度" class="headerlink" title="不同性能度量和适配度"></a>不同性能度量和适配度</h4></li>
+<li><p>ACC</p>
+</li>
+<li><p>AUC：泛化能力强的AUC高。</p>
+</li>
+<li><p>Recall</p>
+</li>
+<li><p>混淆矩阵</p>
+<h4 id="算法优缺点"><a href="#算法优缺点" class="headerlink" title="算法优缺点"></a>算法优缺点</h4></li>
 </ul>
 <ol>
-<li>简单</li>
-<li>简单</li>
-<li>简单</li>
-<li>简单</li>
-<li>简单</li>
-<li>尼玛</li>
+<li>决策树：<ol>
+<li>优点：<ol>
+<li>容易理解</li>
+<li>易于生成规则</li>
+</ol>
+</li>
+<li>缺点：<ol>
+<li>过于简单</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>随机森林<ol>
+<li>优点：<ol>
+<li>不需要太多调参</li>
+<li>准确率高</li>
+<li>能运行于大规模数据集</li>
+<li>能处理高维特征数据</li>
+<li>能估计每个特征在分类上的重要性</li>
+<li>对缺省值问题能获得很好的结果</li>
+</ol>
+</li>
+<li>缺点<ol>
+<li>在噪声较大的问题上会过拟合</li>
+<li>有不同级别的属性的数据随机森林产出的属性权值可信度低。 </li>
+<li>模型过于general</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Adaboost<ol>
+<li>优点<ol>
+<li>利用弱分类器进行级联，可以将不同的分类器设置为弱分类器</li>
+<li>具有很高的精度</li>
+<li>充分考虑每个分类器的权重</li>
+</ol>
+</li>
+<li>缺点<ol>
+<li>弱分类器数目不好确定</li>
+<li>数据不平衡导致精度下降</li>
+<li>训练耗时</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>KNN<ol>
+<li>优点<ol>
+<li>简单但可以解决复杂的问题</li>
+<li>训练样本少也可以使用KNN</li>
+</ol>
+</li>
+<li>缺点<ol>
+<li>特征选择问题导致结果很多</li>
+<li>对于特征表达过于敏感</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>朴素贝叶斯<ol>
+<li>优点<ol>
+<li>返回概率，可以得到算法的可信度</li>
+<li>不需要太多训练数据</li>
+<li>很容实现</li>
+</ol>
+</li>
+<li>缺点</li>
+</ol>
+</li>
+<li>SVM<ol>
+<li>优点<ol>
+<li>数学理论基础扎实</li>
+<li>在未知数据上的泛化误差小</li>
+</ol>
+</li>
+</ol>
+</li>
 </ol>
 <h3 id="集成学习"><a href="#集成学习" class="headerlink" title="集成学习"></a>集成学习</h3><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/27689464">集成学习（Ensemble Learning) - 知乎 (zhihu.com)</a></p>
 <ol>
 <li>随机森林（Bagging），参考分类模块。考试时在这里回答。</li>
-<li>Adaboost（Boosting），参考分类模块。考试时在这里回答。</li>
-</ol>
-<h3 id="聚类"><a href="#聚类" class="headerlink" title="聚类"></a>聚类</h3><ol>
+<li>Adaboost（Boosting），参考分类模块。考试时在这里回答。<h4 id="对比集成学习和分类"><a href="#对比集成学习和分类" class="headerlink" title="对比集成学习和分类"></a>对比集成学习和分类</h4>集成学习可以整合各个分类器的优点，但也容易过拟合。<h3 id="聚类"><a href="#聚类" class="headerlink" title="聚类"></a>聚类</h3></li>
 <li>K-means基于距离</li>
-<li>DBSCAN基于密度</li>
+<li>similarity，参考分类模块。</li>
+<li>DBSCAN基于密度<ul>
+<li>$\varepsilon$为半径</li>
+<li>MinPts为领域内至少包含的对象数目</li>
+<li>Border、Core、Outliner</li>
+<li>直接密度可达、间接密度可达、密度相连</li>
+<li>优缺点：<ul>
+<li>簇可以有任意的形状大小</li>
+<li>簇的数量自动确定</li>
+<li>可以将簇与噪声分开</li>
+<li>对噪声鲁棒性较高</li>
+<li>参数难以确定</li>
+<li>对参数较敏感<h3 id="异常检测"><a href="#异常检测" class="headerlink" title="异常检测"></a>异常检测</h3></li>
+</ul>
+</li>
+</ul>
+</li>
 </ol>
-<h3 id="异常检测"><a href="#异常检测" class="headerlink" title="异常检测"></a>异常检测</h3><p>没啥好说的</p>
-<h3 id="关联规则"><a href="#关联规则" class="headerlink" title="关联规则"></a>关联规则</h3><h4 id="两种方法"><a href="#两种方法" class="headerlink" title="两种方法"></a>两种方法</h4><ol>
-<li>Ariori</li>
-<li>Information Retrieval and Web Search</li>
-</ol>
-<p>后天考试，明天整理一遍所有内容顺便解一遍题，把文字回答部分讲讲清楚，算法优劣等等。</p>
+<h3 id="关联规则"><a href="#关联规则" class="headerlink" title="关联规则"></a>关联规则</h3><h4 id="两种方法"><a href="#两种方法" class="headerlink" title="两种方法"></a>两种方法</h4><h5 id="Ariori"><a href="#Ariori" class="headerlink" title="Ariori"></a>Ariori</h5><ul>
+<li>评价指标：<ul>
+<li>Support(S)：同时包含X与Y的Transaction的比例，minsup为阈值</li>
+<li>Confidence(c)：Y出现在含有X的Transaction的比例，minconf为阈值</li>
+</ul>
+</li>
+<li>挖掘关联规则<ul>
+<li>生成频繁项集解决support</li>
+<li>生成规则解决confidence<ul>
+<li>连接</li>
+<li>修建<h6 id="FP-tree"><a href="#FP-tree" class="headerlink" title="FP tree"></a>FP tree</h6></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="Information-Retrieval-and-Web-Search"><a href="#Information-Retrieval-and-Web-Search" class="headerlink" title="Information Retrieval and Web Search"></a>Information Retrieval and Web Search</h5><p>后天考试，明天整理一遍所有内容顺便解一遍题，把文字回答部分讲讲清楚，算法优劣等等。</p>
 
     </div>
 
@@ -438,7 +581,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%80%83%E8%AF%95"><span class="nav-number">1.</span> <span class="nav-text">考试</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">1.1.</span> <span class="nav-text">题目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%80%83%E8%AF%95%E8%A6%81%E6%B1%82"><span class="nav-number">1.1.1.</span> <span class="nav-text">考试要求</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E8%87%B4%E6%80%9D%E8%B7%AF"><span class="nav-number">1.2.</span> <span class="nav-text">大致思路</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-number">1.2.1.</span> <span class="nav-text">数据预处理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%84%E7%90%86%E5%99%AA%E5%A3%B0"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">处理噪声</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BD%92%E4%B8%80%E5%8C%96"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">归一化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8D%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE"><span class="nav-number">1.2.1.3.</span> <span class="nav-text">不平衡数据</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95"><span class="nav-number">1.2.2.</span> <span class="nav-text">分类算法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%89%E7%A7%8D"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">三种</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%9B%B8%E4%BC%BC%E5%BA%A6%E5%BA%A6%E9%87%8F%EF%BC%9AJaccard%E3%80%81cosine%E3%80%81Pearson"><span class="nav-number">1.2.2.1.1.</span> <span class="nav-text">相似度度量：Jaccard、cosine、Pearson</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%86%B3%E7%AD%96%E6%A0%91%EF%BC%9AGini%E3%80%81%E7%86%B5"><span class="nav-number">1.2.2.1.2.</span> <span class="nav-text">决策树：Gini、熵</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%EF%BC%9ACART-Classification-and-Regression-Trees"><span class="nav-number">1.2.2.1.3.</span> <span class="nav-text">随机森林：CART(Classification and Regression Trees)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Adaboost"><span class="nav-number">1.2.2.1.4.</span> <span class="nav-text">Adaboost</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#KNN"><span class="nav-number">1.2.2.1.5.</span> <span class="nav-text">KNN</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Naive-Bayes"><span class="nav-number">1.2.2.1.6.</span> <span class="nav-text">Naive Bayes</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#SVM"><span class="nav-number">1.2.2.1.7.</span> <span class="nav-text">SVM</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%92%E5%88%86%E8%AE%AD%E7%BB%83%E9%9B%86"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">划分训练集</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8D%E5%90%8C%E6%80%A7%E8%83%BD%E5%BA%A6%E9%87%8F%E5%92%8C%E9%80%82%E9%85%8D%E5%BA%A6"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">不同性能度量和适配度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E4%BC%98%E7%BC%BA%E7%82%B9"><span class="nav-number">1.2.2.4.</span> <span class="nav-text">算法优缺点</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0"><span class="nav-number">1.2.3.</span> <span class="nav-text">集成学习</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%81%9A%E7%B1%BB"><span class="nav-number">1.2.4.</span> <span class="nav-text">聚类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B"><span class="nav-number">1.2.5.</span> <span class="nav-text">异常检测</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E8%81%94%E8%A7%84%E5%88%99"><span class="nav-number">1.2.6.</span> <span class="nav-text">关联规则</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95"><span class="nav-number">1.2.6.1.</span> <span class="nav-text">两种方法</span></a></li></ol></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%80%83%E8%AF%95"><span class="nav-number">1.</span> <span class="nav-text">考试</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">1.1.</span> <span class="nav-text">题目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%80%83%E8%AF%95%E8%A6%81%E6%B1%82"><span class="nav-number">1.1.1.</span> <span class="nav-text">考试要求</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E8%87%B4%E6%80%9D%E8%B7%AF"><span class="nav-number">1.2.</span> <span class="nav-text">大致思路</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86"><span class="nav-number">1.2.1.</span> <span class="nav-text">数据预处理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%84%E7%90%86%E5%99%AA%E5%A3%B0"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">处理噪声</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BD%92%E4%B8%80%E5%8C%96"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">归一化</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8D%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE"><span class="nav-number">1.2.1.3.</span> <span class="nav-text">不平衡数据</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95"><span class="nav-number">1.2.2.</span> <span class="nav-text">分类算法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%89%E7%A7%8D"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">三种</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%9B%B8%E4%BC%BC%E5%BA%A6%E5%BA%A6%E9%87%8F%EF%BC%9AJaccard%E3%80%81cosine%E3%80%81Pearson"><span class="nav-number">1.2.2.1.1.</span> <span class="nav-text">相似度度量：Jaccard、cosine、Pearson</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%86%B3%E7%AD%96%E6%A0%91%EF%BC%9AGini%E3%80%81%E7%86%B5"><span class="nav-number">1.2.2.1.2.</span> <span class="nav-text">决策树：Gini、熵</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%EF%BC%9ACART-Classification-and-Regression-Trees"><span class="nav-number">1.2.2.1.3.</span> <span class="nav-text">随机森林：CART(Classification and Regression Trees)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Adaboost"><span class="nav-number">1.2.2.1.4.</span> <span class="nav-text">Adaboost</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#KNN"><span class="nav-number">1.2.2.1.5.</span> <span class="nav-text">KNN</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Naive-Bayes"><span class="nav-number">1.2.2.1.6.</span> <span class="nav-text">Naive Bayes</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#SVM"><span class="nav-number">1.2.2.1.7.</span> <span class="nav-text">SVM</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%92%E5%88%86%E8%AE%AD%E7%BB%83%E9%9B%86"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">划分训练集</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8D%E5%90%8C%E6%80%A7%E8%83%BD%E5%BA%A6%E9%87%8F%E5%92%8C%E9%80%82%E9%85%8D%E5%BA%A6"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">不同性能度量和适配度</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E4%BC%98%E7%BC%BA%E7%82%B9"><span class="nav-number">1.2.2.4.</span> <span class="nav-text">算法优缺点</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0"><span class="nav-number">1.2.3.</span> <span class="nav-text">集成学习</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%88%86%E7%B1%BB"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">对比集成学习和分类</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%81%9A%E7%B1%BB"><span class="nav-number">1.2.4.</span> <span class="nav-text">聚类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B"><span class="nav-number">1.2.5.</span> <span class="nav-text">异常检测</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E8%81%94%E8%A7%84%E5%88%99"><span class="nav-number">1.2.6.</span> <span class="nav-text">关联规则</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95"><span class="nav-number">1.2.6.1.</span> <span class="nav-text">两种方法</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Ariori"><span class="nav-number">1.2.6.1.1.</span> <span class="nav-text">Ariori</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#FP-tree"><span class="nav-number">1.2.6.1.1.1.</span> <span class="nav-text">FP tree</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Information-Retrieval-and-Web-Search"><span class="nav-number">1.2.6.1.2.</span> <span class="nav-text">Information Retrieval and Web Search</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -452,7 +595,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">26</span>
+          <span class="site-state-item-count">27</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
