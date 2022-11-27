@@ -2331,16 +2331,17 @@
   <entry>
     <title>专业学习|给自己的学习方法总结</title>
     <url>/2022/11/12/%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0-%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<p>总结一下大学几年的学习之路。请注意学习方法只适用于个人，如要参考请注意按照适应自己的方式来调整。</p>
-<span id="more"></span>
-<h1 id="学习历程"><a href="#学习历程" class="headerlink" title="学习历程"></a>学习历程</h1><table>
+    <content><![CDATA[<p>总结一下大学几年的学习之路。请注意学习方法只适用于个人，如要参考请注意按照适应自己的方式来调整。<br><span id="more"></span></p>
+<h1 id="学习历程"><a href="#学习历程" class="headerlink" title="学习历程"></a>学习历程</h1><div class="table-container">
+<table>
 <thead>
 <tr>
 <th>时期</th>
 <th>状态</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>大一上学期</td>
 <td>从不听课，任何课程都依靠自己找最难最好的资料和视频，结果是成绩优异做到了超过所有人。但似乎没有达到心中的预期，总觉得学得不够多。负担过重。</td>
 </tr>
@@ -2360,19 +2361,20 @@
 <td>大三上学期</td>
 <td>在迷茫一段时间后，认为自己不应该去学文学艺术或者再次休学躺平，最后决定了好好处理学业上的问题，并且有出国读研的计划。十一月以前也几乎没有学习，十一月恢复了状态，重拾学习信心，探索学习方法中，记录在这里。</td>
 </tr>
-<tr>
-<td>22&#x2F;11&#x2F;12 最近数据挖掘彻底结束了。还剩六门需要花费精力的课。</td>
-<td></td>
-</tr>
-</tbody></table>
-<h1 id="学习心态转变"><a href="#学习心态转变" class="headerlink" title="学习心态转变"></a>学习心态转变</h1><table>
+</tbody>
+</table>
+</div>
+<p>22/11/12 最近数据挖掘彻底结束了。还剩六门需要花费精力的课。</p>
+<h1 id="学习心态转变"><a href="#学习心态转变" class="headerlink" title="学习心态转变"></a>学习心态转变</h1><div class="table-container">
+<table>
 <thead>
 <tr>
 <th>时期</th>
 <th>心态</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>大一上学期</td>
 <td>不学就想要惩罚自己，导致除了学习以外的时间都无法心安</td>
 </tr>
@@ -2384,21 +2386,25 @@
 <td>大三上学期</td>
 <td>即使睡了一大觉也无所谓，留有时间学习，其他时间水群、看电影、看小说都行，做好该做的就好了</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <h1 id="学习方法总结"><a href="#学习方法总结" class="headerlink" title="学习方法总结"></a>学习方法总结</h1><h2 id="学习方法论"><a href="#学习方法论" class="headerlink" title="学习方法论"></a>学习方法论</h2><ul>
 <li>GTD整理近期要做的事情和马上能做的事情</li>
 <li>用番茄规划学习时间，定期要休息。</li>
 <li>我喜欢手写笔记，也喜欢边听东西变看东西。</li>
 <li>痛苦的时候一定要听音乐，一定要听音乐。并且远离所有让我痛苦的东西（除了学习）</li>
 </ul>
-<h2 id="具体的学习方法"><a href="#具体的学习方法" class="headerlink" title="具体的学习方法"></a>具体的学习方法</h2><table>
+<h2 id="具体的学习方法"><a href="#具体的学习方法" class="headerlink" title="具体的学习方法"></a>具体的学习方法</h2><div class="table-container">
+<table>
 <thead>
 <tr>
 <th>时期</th>
 <th>具体的学习方法</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>大一上学期</td>
 <td>知乎上找每门课的教材推荐，认真啃完整本书，配合部分网课一起看</td>
 </tr>
@@ -2410,25 +2416,35 @@
 <td>大三上学期</td>
 <td>对于老师讲得不错的课，和课程回放一起看PPT，非常快就可以看完一整门课。讲得不好的课暂时的方法是找一些可靠的课本，明确自己的学习范围和目标，顺便还得找网课</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <h3 id="学习日记"><a href="#学习日记" class="headerlink" title="学习日记"></a>学习日记</h3><p>11月12（第11周周末）：<br>目前还没有完全确定应该如何去学习一门课。我依旧不想听十分无聊松散的线下课，加上这学期落下太多了，去听课也听不懂。也不想找太复杂，过分超过考试需求的资料，给自己太大负荷。</p>
 <h3 id="科目"><a href="#科目" class="headerlink" title="科目"></a>科目</h3><p>按优先度排序</p>
 <h4 id="计算机组成原理"><a href="#计算机组成原理" class="headerlink" title="计算机组成原理"></a>计算机组成原理</h4><ul>
-<li>priority：5&#x2F;5</li>
-<li>progress：1.5&#x2F;23</li>
-<li>要点：每周<strong>实验</strong><br>对于比较重要的课，比如计算机组成原理，找了本三百多页的大典，Alan Clements的《计算机组成原理》，也在阿b上找了个视频。先试着学两个番茄看看。<br>可以，但是不包含我的课本上第七八九章节的内容。每天两小时预计一周内可以看完。（23小时二倍速&#x2F;一天两小时）考虑到还要顾及别的科目，再加上结课并不紧张，每天用时可以调整至每天一个到一个半小时，预计9天到14天看完。剩余时间需要自己看书，可能会慢一些。<br>11&#x2F;16:计划有变，打算快速看完。目前因为跳过了一部分内容还剩一半。<h4 id="多元统计分析"><a href="#多元统计分析" class="headerlink" title="多元统计分析"></a>多元统计分析</h4></li>
-<li>priority：5&#x2F;5</li>
+<li>priority：5/5</li>
+<li>progress：1.5/23</li>
+<li>要点：每周<strong>实验</strong><br>对于比较重要的课，比如计算机组成原理，找了本三百多页的大典，Alan Clements的《计算机组成原理》，也在阿b上找了个视频。先试着学两个番茄看看。<br>可以，但是不包含我的课本上第七八九章节的内容。每天两小时预计一周内可以看完。（23小时二倍速/一天两小时）考虑到还要顾及别的科目，再加上结课并不紧张，每天用时可以调整至每天一个到一个半小时，预计9天到14天看完。剩余时间需要自己看书，可能会慢一些。<br>11/16:计划有变，打算快速看完。目前因为跳过了一部分内容还剩一半。<h4 id="多元统计分析"><a href="#多元统计分析" class="headerlink" title="多元统计分析"></a>多元统计分析</h4><ul>
+<li>priority：5/5</li>
+</ul>
+</li>
 <li>progress：</li>
-<li>要点：12.9<strong>考试</strong>，难，<strong>大作业</strong>，十六周前提交电子版<br>一天两小时，十二天也可以看完。但是这样的话压力会很大。<br>妈的，矩阵代数我不会啊，看的难过死了。<br>还在犹豫应该怎么学。<h4 id="模式识别"><a href="#模式识别" class="headerlink" title="模式识别"></a>模式识别</h4></li>
-<li>priority：4&#x2F;5</li>
+<li>要点：12.9<strong>考试</strong>，难，<strong>大作业</strong>，十六周前提交电子版<br>一天两小时，十二天也可以看完。但是这样的话压力会很大。<br>妈的，矩阵代数我不会啊，看的难过死了。<br>还在犹豫应该怎么学。<h4 id="模式识别"><a href="#模式识别" class="headerlink" title="模式识别"></a>模式识别</h4><ul>
+<li>priority：4/5</li>
+</ul>
+</li>
 <li>progress：</li>
-<li>要点：难，不急，慢慢跟上进度<h4 id="数字图像处理"><a href="#数字图像处理" class="headerlink" title="数字图像处理"></a>数字图像处理</h4></li>
-<li>priority：3&#x2F;5</li>
+<li>要点：难，不急，慢慢跟上进度<h4 id="数字图像处理"><a href="#数字图像处理" class="headerlink" title="数字图像处理"></a>数字图像处理</h4><ul>
+<li>priority：3/5</li>
+</ul>
+</li>
 <li>progress：</li>
-<li>要点：12.12<strong>大作业</strong>，12.12<strong>实验</strong><h4 id="软件工程"><a href="#软件工程" class="headerlink" title="软件工程"></a>软件工程</h4></li>
-<li>priority：2&#x2F;5</li>
+<li>要点：12.12<strong>大作业</strong>，12.12<strong>实验</strong><h4 id="软件工程"><a href="#软件工程" class="headerlink" title="软件工程"></a>软件工程</h4><ul>
+<li>priority：2/5</li>
+</ul>
+</li>
 <li>progress：</li>
-<li>要点：11.26<strong>考试</strong>，<strong>题库</strong><br>下周开始复习，注意考试是<strong>半开卷</strong>，记得带一张纸写好内容。画流程图参考。<h4 id="普适计算"><a href="#普适计算" class="headerlink" title="普适计算"></a>普适计算</h4>最后用java来做课设。<h4 id="数据挖掘"><a href="#数据挖掘" class="headerlink" title="数据挖掘"></a>数据挖掘</h4>已经学完了，方法是看PPT和回放，三天就看完500页PPT了。总结在<a href="#">Post not found: 专业学习|数据挖掘</a>。但是还需要补遗传算法和模拟退火。<h4 id="以前欠下的"><a href="#以前欠下的" class="headerlink" title="以前欠下的"></a>以前欠下的</h4>都按需学习，假期恶补。<h5 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h5>考过了，暂时不学，有需求再说。<h5 id="最优化"><a href="#最优化" class="headerlink" title="最优化"></a>最优化</h5><h5 id="概率论"><a href="#概率论" class="headerlink" title="概率论"></a>概率论</h5></li>
+<li>要点：11.26<strong>考试</strong>，<strong>课设</strong><br>下周开始复习，注意考试是<strong>半开卷</strong>，记得带一张纸写好内容。画流程图参考。<br>考完了，复习得很快。还有课设没写好。<h4 id="普适计算"><a href="#普适计算" class="headerlink" title="普适计算"></a>普适计算</h4>最后用java来做课设。<h4 id="数据挖掘"><a href="#数据挖掘" class="headerlink" title="数据挖掘"></a>数据挖掘</h4>已经学完了，方法是看PPT和回放，三天就看完500页PPT了。总结在<a href="#">Post not found: 专业学习|数据挖掘</a>。但是还需要补遗传算法和模拟退火。<h4 id="以前欠下的"><a href="#以前欠下的" class="headerlink" title="以前欠下的"></a>以前欠下的</h4>都按需学习，假期恶补。<h5 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h5>考过了，暂时不学，有需求再说。<h5 id="最优化"><a href="#最优化" class="headerlink" title="最优化"></a>最优化</h5><h5 id="概率论"><a href="#概率论" class="headerlink" title="概率论"></a>概率论</h5></li>
 </ul>
 ]]></content>
       <categories>
@@ -2491,6 +2507,62 @@
       </categories>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随笔|旧友</title>
+    <url>/2022/11/21/%E9%9A%8F%E7%AC%94-%E6%97%A7%E5%8F%8B/</url>
+    <content><![CDATA[<p>正在听玉置浩二的《行かないで》。</p>
+<span id="more"></span>
+<p>20年，我和她状态都不好。她比我大一届，我高考考砸。精神堕入谷底，时常不稳定，每日重复着生存的质问。然而那个时候我和她彼此都不设防，把所想所思全部掷向对方（我的记忆中，更多是我在向她诉说），似乎无所不谈，形成了那样的狭小亲密的赛博空间。经历了很多事情后，我或许成熟了一些；不再质问，不再把自己对自己的疑问抛向他人，投入生活和学业。她后来有找我聊天，可能时隔半年或许更久。可是我和她都不知道该说什么好了，她说不知道是否应该发一些碎片的情绪和信息，不知道这样是否会让关系越来越远。我心想是的，那个时候我十分幼稚，而她接纳了我；如今我再也说不出那些话来，几乎不再找人私聊，甚至也无暇顾及别人的消息。那样的空间已经随着时间消失了。我经历的人生、她经历的人生几乎没有什么交集了。但是我和她都记得那时一起创造的小空间——彼此包容也彼此审视，触摸他者的痛苦和欢乐的空间，这样也许就足够了。<br>我所有的旧友，我爱你们。尽管时间疯狂地涌过每个人的生活，尽管我并不热衷于向每个人表达。我想要对每个朋友说我爱你，我衷心地祝愿你们能够幸福安康。</p>
+]]></content>
+      <categories>
+        <category>diary</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>留学准备</title>
+    <url>/2022/11/23/%E7%95%99%E5%AD%A6%E5%87%86%E5%A4%87/</url>
+    <content><![CDATA[<p>暂时都不知道咋归档。<br><span id="more"></span><br>眼前最紧要的是考雅思，后路可以根据雅思成绩决定。绩点够，但这两个学期依旧要尽量达标。</p>
+<p><table><br>    <tr>
+        <td>归档</td> 
+        <td>项目</td> 
+        <td>优势</td> 
+        <td>劣势</td> 
+        <td>待办</td> 
+   </tr><br>    <tr>
+        <td rowspan="4">保留</td>    
+           <td>UCL访学</td> 
+           <td>有机会直接留校</td> 
+           <td>可能性小风险大，治安</td> 
+    </tr><br>    <tr>
+           <td>爱丁堡访学</td> 
+           <td>美国去不了之后的考虑</td> 
+           <td>风险不小</td> 
+    </tr><br>    <tr>
+           <td>加州大学河滨分校3+1+1</td> 
+           <td>保底</td> 
+           <td>底</td> 
+    </tr><br>    <tr>
+           <td>新加坡国立大学3+2（一年在苏州）</td> 
+           <td>最为稳妥</td> 
+           <td>没有脱离亚洲环境</td> 
+           <td>有待去咨询学长</td>
+    </tr><br>    <tr>
+        <td rowspan="1">放弃</td>    
+           <td>爱丁堡2+2</td> 
+           <td>南航爱丁堡双学位</td> 
+           <td>时间上的性价比不如爱丁堡访学</td> 
+    </tr></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>使用指南</tag>
       </tags>
   </entry>
 </search>
